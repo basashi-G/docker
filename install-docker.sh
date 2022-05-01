@@ -8,3 +8,6 @@ echo \
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo apt install -y  docker-compose
+wget https://raw.githubusercontent.com/basashi-G/docker/main/docker-compose.yml
+sudo reboot
+
